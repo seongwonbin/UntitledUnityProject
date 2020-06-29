@@ -6,6 +6,10 @@ TagManager:
   tags:
   - PlayerTag
   - EnemyTag
+  - mouseTest
+  - SurfaceTag
+  - FerryTag
+  - ExitTag
   layers:
   - Default
   - TransparentFX
@@ -48,4 +52,7 @@ TagManager:
     locked: 0
   - name: 2
     uniqueID: 19077053
+    locked: 0
+  - name: 3
+    uniqueID: 376244357
     locked: 0

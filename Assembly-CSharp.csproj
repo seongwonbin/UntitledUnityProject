@@ -62,10 +62,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Free Pixel Art Hills\Demo\MoveBackground.cs" />
-    <Compile Include="Assets\Scripts\basicAttackScript.cs" />
+    <Compile Include="Assets\Scripts\BasicAttackScript.cs" />
+    <Compile Include="Assets\Scripts\cameraShake.cs" />
+    <Compile Include="Assets\Scripts\enemy2Script.cs" />
     <Compile Include="Assets\Scripts\enemyScript.cs" />
+    <Compile Include="Assets\Scripts\ferryEffect.cs" />
+    <Compile Include="Assets\Scripts\FerryScript.cs" />
+    <Compile Include="Assets\Scripts\gameManagerScript.cs" />
+    <Compile Include="Assets\Scripts\monster2AttackScript.cs" />
+    <Compile Include="Assets\Scripts\monsterAttackScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerFerryScript.cs" />
     <Compile Include="Assets\Scripts\playerScript.cs" />
+    <Compile Include="Assets\Scripts\scoreScript.cs" />
+    <Compile Include="Assets\Scripts\statusScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -99,14 +108,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <None Include="Assets\Free Pixel Art Hills\readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Free Pixel Art Hills\contact.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -121,7 +128,6 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Free Pixel Art Hills\Lisense.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/UnityProject/UntitledProjectK/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
