@@ -86,9 +86,9 @@ public class gameManagerScript : MonoBehaviour
         {
             //Debug.Log("yposposition");
             Instantiate(obj3, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
-            enemy2Script.enemy2HealthPoint -= 500;
+            enemy2Script.enemy2HealthPoint -= 300;
             PlayerFerryScript.ferryEffect = false;
-
+           
 
         }
 
@@ -96,7 +96,8 @@ public class gameManagerScript : MonoBehaviour
 
         if (evilEyeCounter == 10)
             enemyScript.enemyHealthPoint = 0;
-
+        else if (evilEyeCounter < 10)
+            enemyScript.enemyHealthPoint = 100;
     }
 
     void CreateEnemy()
@@ -113,8 +114,8 @@ public class gameManagerScript : MonoBehaviour
         {
             Debug.Log("enemy2create");
             Instantiate(obj2, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
-            //enemyScript.enemyHealthPoint = 100;
-            enemy2Script.enemy2HealthPoint = 300;
+            enemyScript.enemyHealthPoint = 100;
+            enemy2Script.enemy2HealthPoint = 500;
             enemyCounter = true;
             evilEyeCounter -= 1;
                 

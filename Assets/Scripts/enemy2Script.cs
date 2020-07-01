@@ -7,7 +7,7 @@ public class enemy2Script : MonoBehaviour
 {
     protected Animator animator;
     private float speed = -0.03f;
-    public static float enemy2HealthPoint = 300;
+    public static float enemy2HealthPoint = 500;
     private float yOffset = 0.05f;
 
 

@@ -19,7 +19,10 @@ public class scoreScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //scoreText.text = "score   " + scoreResource.ToString("N0");
-        scoreText.text = enemyScript.enemyHealthPoint.ToString();
+        FinalScoreScript.score = scoreResource;
+        
+
+        scoreText.text = "score   " + scoreResource.ToString("N0");
+        //scoreText.text = gameManagerScript.enemyCounter.ToString();
     }
 }

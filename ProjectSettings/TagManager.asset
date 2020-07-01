@@ -10,6 +10,7 @@ TagManager:
   - SurfaceTag
   - FerryTag
   - ExitTag
+  - StartButtonTag
   layers:
   - Default
   - TransparentFX

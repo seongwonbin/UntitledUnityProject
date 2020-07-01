@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 
 public class statusScript : MonoBehaviour
@@ -37,7 +37,7 @@ public class statusScript : MonoBehaviour
         }
         else
         {
-            //Debug.Log("Time Over");
+            SceneManager.LoadScene("GameEnd");
         }
     }
 }

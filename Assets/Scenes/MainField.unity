@@ -172,8 +172,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 19077053
-  m_SortingLayer: 2
+  m_SortingLayerID: 1940221993
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dc11b85dff15d0f4d90d48a184cf22db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1109,8 +1109,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 19077053
-  m_SortingLayer: 2
+  m_SortingLayerID: 1940221993
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dc11b85dff15d0f4d90d48a184cf22db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1244,7 +1244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -376.6, y: 208.6}
+  m_AnchoredPosition: {x: -375, y: 233}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032040130
@@ -1613,8 +1613,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 19077053
-  m_SortingLayer: 2
+  m_SortingLayerID: 1940221993
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e02cccfb176050e44ac1a74f33fabb99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2244,8 +2244,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 19077053
-  m_SortingLayer: 2
+  m_SortingLayerID: 1940221993
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dc11b85dff15d0f4d90d48a184cf22db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2535,7 +2535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 249.08, y: 127}
+  m_AnchoredPosition: {x: 249.08, y: 145.53}
   m_SizeDelta: {x: 301.84, y: 128.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140460934

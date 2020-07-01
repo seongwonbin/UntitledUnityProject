@@ -68,7 +68,13 @@
     <Compile Include="Assets\Scripts\enemyScript.cs" />
     <Compile Include="Assets\Scripts\ferryEffect.cs" />
     <Compile Include="Assets\Scripts\FerryScript.cs" />
+    <Compile Include="Assets\Scripts\FinalScoreScript.cs" />
+    <Compile Include="Assets\Scripts\GameEndScript.cs" />
     <Compile Include="Assets\Scripts\gameManagerScript.cs" />
+    <Compile Include="Assets\Scripts\guideButtonScript.cs" />
+    <Compile Include="Assets\Scripts\guideImageScript.cs" />
+    <Compile Include="Assets\Scripts\mainButtonScript.cs" />
+    <Compile Include="Assets\Scripts\mainScreenScript.cs" />
     <Compile Include="Assets\Scripts\monster2AttackScript.cs" />
     <Compile Include="Assets\Scripts\monsterAttackScript.cs" />
     <Compile Include="Assets\Scripts\PlayerFerryScript.cs" />
